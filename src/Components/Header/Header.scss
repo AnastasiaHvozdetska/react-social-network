@@ -1,0 +1,13 @@
+.Header {
+    grid-area: header;
+    padding: 10px;
+    background-color: #fbbe2e;
+    img {
+        width: 100px;
+        filter: brightness(0.9);
+        transition: .3s all cubic-bezier(0.39, 0.575, 0.565, 1);
+        &:hover {
+            filter: brightness(1.1);
+        }
+    }
+}

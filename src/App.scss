@@ -1,0 +1,28 @@
+.App {
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav content";
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+    min-height: 100vh;
+
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.Layout {
+    margin-right: 10px;
+}
